@@ -1,0 +1,96 @@
+.features__inner {
+    margin-top: 50px;
+}
+
+.features-heading {
+    text-align: center;
+
+    h2 {
+        font-family: $font-family-secondary;
+        font-size: 16px;
+        font-weight: 500;
+        color: #DC780B;
+        opacity: 0.7;
+        margin-bottom: -25px;
+    }
+
+    h3 {
+        font-family: $font-family-primary;
+        font-weight: 700;
+        font-size: 31.25px;
+        color: #150C01;
+    }
+}
+
+.features__cards-wrapper {
+    display: flex;
+}
+
+.features__cards-wrapper__card-quality {
+
+    &::before {
+        content: url(/img/quality-food.svg);
+    }
+
+    h4 {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #150C01;
+    }
+
+    p {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 300px;
+    }
+}
+
+.features__cards-wrapper__card-delivery {
+
+    &::before {
+        content: url(/img/food-delivery.svg);
+    }
+
+
+    h4 {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #150C01;
+    }
+
+    p {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width:300px;
+    } 
+}
+
+.features__cards-wrapper__card-super {
+
+    h4 {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #150C01;
+    }
+
+    p {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width:300px;
+    } 
+}

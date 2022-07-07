@@ -14,4 +14,198 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  padding: 30px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+.header__nav a {
+  display: block;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: 0.3s ease;
+}
+
+.home {
+  color: #DC780B;
+}
+.home:hover {
+  border-bottom: 1px solid;
+}
+
+.black {
+  color: #150C01;
+  opacity: 0.6;
+}
+.black:hover {
+  border-bottom: 1px solid;
+}
+
+.header-btn {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: #DC780B;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.header__inner__btn-wrapper {
+  margin-left: auto;
+}
+
+.hero-section__inner {
+  display: flex;
+}
+
+.hero-content__title {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-size: 48.83px;
+  max-width: 555px;
+  line-height: 57.6px;
+  color: #150C01;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.hero-content__desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  max-width: 555px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+.hero-img {
+  margin-top: 80px;
+}
+
+.primary {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  background-color: #DC780B;
+  color: white;
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.secondary {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: white;
+  color: #DC780B;
+  padding: 20px 40px;
+  border: 1px solid #DC780B;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.hero-content__links-wrapper {
+  margin-top: 50px;
+}
+
+.features__inner {
+  margin-top: 50px;
+}
+
+.features-heading {
+  text-align: center;
+}
+.features-heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-bottom: -25px;
+}
+.features-heading h3 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 31.25px;
+  color: #150C01;
+}
+
+.features__cards-wrapper {
+  display: flex;
+}
+
+.features__cards-wrapper__card-quality::before {
+  content: url(/img/quality-food.svg);
+}
+.features__cards-wrapper__card-quality h4 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #150C01;
+}
+.features__cards-wrapper__card-quality p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 300px;
+}
+
+.features__cards-wrapper__card-delivery::before {
+  content: url(/img/food-delivery.svg);
+}
+.features__cards-wrapper__card-delivery h4 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #150C01;
+}
+.features__cards-wrapper__card-delivery p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 300px;
+}
+
+.features__cards-wrapper__card-super h4 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #150C01;
+}
+.features__cards-wrapper__card-super p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 300px;
 }/*# sourceMappingURL=main.css.map */
