@@ -18,10 +18,11 @@ body {
 
 .header {
   width: 100%;
-  background-color: white;
   position: fixed;
   top: 0;
   padding: 30px 0;
+  background-color: white;
+  z-index: 100;
 }
 
 h1 {
@@ -144,6 +145,7 @@ h1 {
   color: #DC780B;
   opacity: 0.7;
   margin-bottom: -25px;
+  margin-bottom: -7px;
 }
 .features-heading h3 {
   font-family: "Philosopher", "Roboto", sans-serif;
@@ -154,8 +156,14 @@ h1 {
 
 .features__cards-wrapper {
   display: flex;
+  gap: 100px;
+  margin-left: 20px;
 }
 
+.features__cards-wrapper__card-quality {
+  text-align: center;
+  align-items: center;
+}
 .features__cards-wrapper__card-quality::before {
   content: url(/img/quality-food.svg);
 }
@@ -165,6 +173,7 @@ h1 {
   font-weight: 700;
   font-size: 25px;
   color: #150C01;
+  margin-bottom: -7px;
 }
 .features__cards-wrapper__card-quality p {
   font-family: "Roboto", sans-serif;
@@ -173,8 +182,13 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   max-width: 300px;
+  opacity: 0.7;
 }
 
+.features__cards-wrapper__card-delivery {
+  text-align: center;
+  align-items: center;
+}
 .features__cards-wrapper__card-delivery::before {
   content: url(/img/food-delivery.svg);
 }
@@ -184,6 +198,7 @@ h1 {
   font-weight: 700;
   font-size: 25px;
   color: #150C01;
+  margin-bottom: -7px;
 }
 .features__cards-wrapper__card-delivery p {
   font-family: "Roboto", sans-serif;
@@ -192,14 +207,23 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   max-width: 300px;
+  opacity: 0.7;
 }
 
+.features__cards-wrapper__card-super {
+  text-align: center;
+  align-items: center;
+}
+.features__cards-wrapper__card-super::before {
+  content: url(/img/super-taste.svg);
+}
 .features__cards-wrapper__card-super h4 {
   font-family: "Philosopher", "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   color: #150C01;
+  margin-bottom: -7px;
 }
 .features__cards-wrapper__card-super p {
   font-family: "Roboto", sans-serif;
@@ -208,4 +232,374 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   max-width: 300px;
+  opacity: 0.7;
+}
+
+.about-us__inner {
+  margin-top: 125px;
+  display: flex;
+}
+
+.about-us__img img {
+  border-radius: 35px;
+}
+
+.about-us__content {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.about-us__content h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-bottom: -25px;
+}
+.about-us__content h3 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 41px;
+  max-width: 487px;
+  margin-bottom: -7px;
+}
+.about-us__content p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 487px;
+  color: #150C01;
+}
+.about-us__content a {
+  text-decoration: none;
+  background-color: #DC780B;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 5px;
+}
+
+.about-us__btn-wrapper {
+  margin-top: 30px;
+}
+
+.menu-section__heading {
+  text-align: center;
+  margin-top: 130px;
+}
+.menu-section__heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-bottom: -20px;
+}
+.menu-section__heading h3 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  color: #150C01;
+}
+.menu-section__heading p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 748px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin: 0 auto;
+}
+
+.menu-section__content {
+  max-width: 360px;
+}
+
+.menu-section__card {
+  align-items: center;
+  max-width: 360px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 75px 10px 10px 10px;
+}
+.menu-section__card img {
+  margin-bottom: -20px;
+  border-radius: 76px 10px 76px 0px;
+}
+.menu-section__card .card-price {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: -30px;
+  margin-left: 15px;
+}
+.menu-section__card .card-price h4 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #150C01;
+}
+.menu-section__card .card-price span {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: auto;
+  color: #150C01;
+}
+.menu-section__card .card-desc {
+  max-width: 310px;
+  margin-left: 15px;
+}
+.menu-section__card .card-desc p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+.menu-section__cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 30px;
+}
+
+.menu-section__stars {
+  display: flex;
+  max-width: 300px;
+  margin-top: 20px;
+}
+.menu-section__stars .card-plus {
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+.menu-section__stars .card-plus span {
+  background-color: #DC780B;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.menu-section__stars .card-stars {
+  margin-left: auto;
+  margin-top: -15px;
+}
+
+.menu-section__content {
+  max-width: 320px;
+}
+
+.menu-section__btn-wrapper {
+  margin-top: 60px;
+  text-align: center;
+}
+.menu-section__btn-wrapper a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #DC780B;
+  background-color: white;
+  border: 1px solid rgba(220, 120, 11, 0.1);
+  border-radius: 5px;
+  padding: 12px 30px;
+}
+
+.take-away__inner {
+  display: flex;
+  margin-top: 185px;
+  background-color: #FBF1E7;
+  height: 518px;
+}
+
+.take-away__content {
+  transform: translateX(140px) translateY(115px);
+}
+.take-away__content h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-bottom: -25px;
+}
+.take-away__content h3 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 41px;
+  max-width: 555px;
+  color: #150C01;
+  margin-bottom: -5px;
+}
+.take-away__content p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 555px;
+}
+
+.take-away__links-wrapper {
+  margin-top: 40px;
+}
+.take-away__links-wrapper .app-store {
+  text-decoration: none;
+  color: white;
+  background-color: #150C01;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.take-away__links-wrapper .app-store::before {
+  content: url(/img/app-store.png);
+  vertical-align: middle;
+}
+.take-away__links-wrapper .google-play {
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 1.5px solid rgba(21, 12, 1, 0.1);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.take-away__links-wrapper .google-play::before {
+  content: url(/img/google-play.svg);
+  vertical-align: middle;
+}
+
+.take-away-img {
+  margin-bottom: 0;
+  transform: translateY(-80px) translateX(200px);
+}
+.take-away-img img {
+  border-radius: 59px;
+}
+
+.test__inner {
+  margin-top: 200px;
+}
+
+.test__btn {
+  background-image: url(/img/svg-ikon.svg);
+  width: 10px;
+  height: 16px;
+  margin-bottom: 180pxqe;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.testimonials__heading {
+  text-align: center;
+}
+.testimonials__heading h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-bottom: -18px;
+}
+.testimonials__heading h3 {
+  font-family: "Philosopher", "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  color: black;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+}
+.testimonials__heading p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 750px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.test_content {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.test_content img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.test_content p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 506px;
+  color: black;
+}
+.test_content span {
+  margin-bottom: -5px;
+}
+.test_content h5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  margin-bottom: -15px;
+}
+.test_content h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.7;
+  color: black;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.test__btn2 {
+  background-image: url(/img/ikon2-svg.svg);
+  width: 10px;
+  height: 16px;
+  margin-bottom: 180px;
 }/*# sourceMappingURL=main.css.map */

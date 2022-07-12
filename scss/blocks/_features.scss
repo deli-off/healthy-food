@@ -12,6 +12,7 @@
         color: #DC780B;
         opacity: 0.7;
         margin-bottom: -25px;
+        margin-bottom: -7px;
     }
 
     h3 {
@@ -24,9 +25,13 @@
 
 .features__cards-wrapper {
     display: flex;
+    gap: 100px;
+    margin-left: 20px;
 }
 
 .features__cards-wrapper__card-quality {
+    text-align: center;
+    align-items: center;
 
     &::before {
         content: url(/img/quality-food.svg);
@@ -38,6 +43,7 @@
         font-weight: 700;
         font-size: 25px;
         color: #150C01;
+        margin-bottom: -7px;
     }
 
     p {
@@ -47,10 +53,13 @@
         font-size: 16px;
         line-height: 24px;
         max-width: 300px;
+        opacity: 0.7;
     }
 }
 
 .features__cards-wrapper__card-delivery {
+    text-align: center;
+    align-items: center;
 
     &::before {
         content: url(/img/food-delivery.svg);
@@ -63,6 +72,7 @@
         font-weight: 700;
         font-size: 25px;
         color: #150C01;
+        margin-bottom: -7px;
     }
 
     p {
@@ -72,10 +82,19 @@
         font-size: 16px;
         line-height: 24px;
         max-width:300px;
+        opacity: 0.7;
     } 
 }
 
 .features__cards-wrapper__card-super {
+
+    text-align: center;
+    align-items: center;
+
+    &::before {
+        content: url(/img/super-taste.svg);
+    }
+
 
     h4 {
         font-family: $font-family-primary;
@@ -83,6 +102,7 @@
         font-weight: 700;
         font-size: 25px;
         color: #150C01;
+        margin-bottom: -7px;
     }
 
     p {
@@ -92,5 +112,6 @@
         font-size: 16px;
         line-height: 24px;
         max-width:300px;
+        opacity: 0.7;
     } 
 }

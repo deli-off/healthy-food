@@ -1,0 +1,145 @@
+.menu-section__heading {
+    text-align: center;
+    margin-top: 130px;
+
+    h2 {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        color: #DC780B;
+        opacity: 0.7;
+        margin-bottom: -20px;
+    }
+
+    h3 {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        color: #150C01;
+    }
+
+    p {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        max-width: 748px;
+        line-height: 24px;
+        opacity: 0.7;
+        margin: 0 auto;
+    }
+}
+
+
+
+.menu-section__content {
+    max-width: 360px;
+}
+
+.menu-section__card {
+    align-items: center;
+    max-width: 360px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+
+
+    img {
+        margin-bottom: -20px;
+        border-radius: 76px 10px 76px 0px;
+    }
+
+    .card-price {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: -30px;
+        margin-left: 15px;
+
+        h4 {
+            font-family: $font-family-primary;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            color: #150C01;
+        }
+
+        span {
+            font-family: $font-family-primary;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            margin-left: auto;
+            color: #150C01;
+        }
+    }
+
+    .card-desc {
+        max-width: 310px;
+        margin-left: 15px;
+
+        p {
+            font-family: $font-family-secondary;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            opacity: 0.7;
+        }
+    }
+}
+
+.menu-section__cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.menu-section__stars {
+    display: flex;
+    max-width: 300px;
+    margin-top: 20px;
+
+    .card-plus {
+        margin-bottom: 25px;
+        margin-left: 15px;
+
+        span {
+            background-color: #DC780B;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+    }
+
+    .card-stars {
+        margin-left: auto;
+        margin-top: -15px;
+    }
+}
+
+.menu-section__content {
+    max-width: 320px
+}
+
+.menu-section__btn-wrapper {
+    margin-top: 60px;
+    text-align: center;
+
+    a {
+        font-family: $font-family-secondary;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #DC780B;
+        background-color: white;
+        border: 1px solid rgba(220, 120, 11,0.1);
+        border-radius: 5px;
+        padding: 12px 30px;
+    }
+}
+
