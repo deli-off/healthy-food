@@ -1,0 +1,114 @@
+.test__inner {
+    margin-top: 200px;
+}
+
+.test__btn {
+    background-image: url(/img/svg-ikon.svg);
+    width: 10px;
+    height: 16px;
+    margin-bottom: 180pxqe;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.testimonials__heading {
+    text-align: center;
+
+    h2 {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        color: #DC780B;
+        opacity: 0.7;
+        margin-bottom: -18px;
+    }
+
+    h3 {
+        font-family: $font-family-primary;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        color: black;
+        margin-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 750px;
+        margin: 0 auto;
+        opacity: 0.7;
+    }
+}
+
+.test_content {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    img {
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 506px;
+        color: black;
+    }
+    
+    span {
+        margin-bottom: -5px;
+    }
+
+    h5 {
+        font-family: $font-family-secondary;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        margin-bottom: -15px;
+    }
+
+    h6 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 0.7;
+        color: black;
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.test__btn2 {
+    background-image: url(/img/ikon2-svg.svg);
+    width: 10px;
+    height: 16px;
+    margin-bottom: 180px;
+}
